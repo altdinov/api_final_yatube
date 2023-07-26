@@ -91,4 +91,8 @@ _Response samples_
     "image": "string",
     "group": 0
 }
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> refs/remotes/origin/master

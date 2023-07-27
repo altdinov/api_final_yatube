@@ -51,7 +51,6 @@ class FollowSerializer(serializers.ModelSerializer):
 
     def validate(self, data):
         user = self.context['request'].user
-        print(data)
         if user == data['following']:
             message = ['Follow denied.', ]
             raise ValidationError({user.username: message})
